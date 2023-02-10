@@ -1,4 +1,3 @@
-import prompt
 import random
 
 
@@ -14,4 +13,3 @@ def calc():
         return f'{number_1} + {number_2}', str(number_1 + number_2)
     else:
         return f'{number_1} - {number_2}', str(number_1 - number_2)
-

@@ -13,6 +13,3 @@ def prime():
         return question, 'yes'
     else:
         return question, 'no'
-
-
-
