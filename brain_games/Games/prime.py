@@ -10,6 +10,6 @@ def prime():
     question = random.randint(1, 100)
 
     if isprime(question):
-        return question, 'yes'
+        return str(question), 'yes'
     else:
-        return question, 'no'
+        return str(question), 'no'
