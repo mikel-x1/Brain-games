@@ -16,5 +16,7 @@ def game(rule, function):
             i += 1
         else:
             print(f"{answer} is wrong answer ;(. Correct answer was {right_answer}.")
-            i = 0
-    print(f'Congratulations, {name}!')
+            print(f"Let's try again, {name}!")
+            break
+    if i == 3:
+        print(f'Congratulations, {name}!')
