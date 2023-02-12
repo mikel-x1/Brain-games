@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
-from brain_games.Engine import game
-from brain_games.Games.even import rule, even
+from brain_games.engine import game
+from brain_games.games.even import rule, even
 
 
 def main():
-    print('Welcome to the Brain Games!')
     game(rule, even)
 
 

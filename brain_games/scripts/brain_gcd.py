@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
-from brain_games.Engine import game
-from brain_games.Games.gcd import rule, gcd
+from brain_games.engine import game
+from brain_games.games.gcd import rule, gcd
 
 
 def main():
-    print('Welcome to the Brain Games!')
     game(rule, gcd)
 
 

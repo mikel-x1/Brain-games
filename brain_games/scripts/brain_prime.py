@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 
-from brain_games.Engine import game
-from brain_games.Games.prime import rule, prime
+from brain_games.engine import game
+from brain_games.games.prime import rule, prime
 
 
 def main():
-    print('Welcome to the Brain Games!')
     game(rule, prime)
 
 
